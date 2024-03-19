@@ -1,0 +1,50 @@
+*{
+    background-color: lightgray;
+}
+
+h1{
+    color: black;
+    font-size: 200%;
+    font-family: serif;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color:darkviolet;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+}
+
+p{
+    color: peru;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 200%;
+    text-indent: 100px;
+    letter-spacing: 5px;
+    letter-spacing: -2px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
+.container{
+    /* white-space: break-spaces; */
+    /* white-space: pre; */
+    /* white-space: pre-wrap; */
+    white-space: pre-line;
+    /* white-space: nowrap; */
+}
+
+.data{
+    /* white-space: nowrap; */
+    /* white-space: pre; */
+    /* white-space: pre-wrap; */
+    white-space: pre-line;
+    /* white-space: break-spaces; */
+}
+
+h2{
+    /* text-shadow: 2px 3px 5px red; */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}

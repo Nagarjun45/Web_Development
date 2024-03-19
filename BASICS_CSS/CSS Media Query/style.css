@@ -1,0 +1,38 @@
+.box{
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    border: solid 2px black;
+}
+
+/* @media (min-width: 600px) {
+    .box{
+        background-color: red;
+    }
+} */
+
+/* @media (width >= 400px) {
+    .box{
+        height: fit-content;
+    }
+  } */
+
+  /* @media (max-width: 300px) {
+    .box{
+        background-color: chocolate;
+    }
+  } */
+
+  /* @media (min-width: 400px) and (max-width: 600px) {
+    .box{
+        border: 5px solid goldenrod;
+    }
+  } */
+
+  /* @media (400px <= width <= 600px )  {
+    .box{
+        border: 5px solid goldenrod;
+    }
+  } */
+
+  

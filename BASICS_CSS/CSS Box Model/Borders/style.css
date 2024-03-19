@@ -1,0 +1,36 @@
+.container{
+    border-style: dashed;
+    border-width: 5px;
+    border-color: aqua;
+}
+
+.a{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: chocolate;
+}
+
+.b{
+    border-style: double;
+    border-width: 6px;
+    border-color: red;
+}
+
+.c{
+    border-style: groove;
+    border-width: 10px;
+    border-color: blue;
+}
+
+.d{
+    border-style: inset;
+    border-width: 1px;
+    border-color: chartreuse;
+}
+
+.e{
+    border-style: outset;
+    border-width: 10px;
+    border-color: cadetblue;
+}
+

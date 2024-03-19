@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Tag</title>
+    <style>
+        video{
+            border: 5px solid black;
+            width: 700px;
+            height: fit-content;
+            margin: 10px;
+            display: flex;
+        }
+
+        @media (max-width:600px) {
+            video{
+                border: 2px solid red;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Video Tag In HTML</h1>
+    <video controls autoplay muted >
+        <source src="../Audio/ve_kamleya.mp4"/>
+    </video>
+</body>
+</html>

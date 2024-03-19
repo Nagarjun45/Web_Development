@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQ with Flex Example</title>
+    <style>
+        .container{
+            border: solid 2px black;
+            background-color: beige;
+            display: flex;
+            flex-direction: row;
+            width: fit-content;
+            
+        }
+
+        #boxleft{
+            background-color: lightcyan;
+            border: 1px solid blue;
+            margin: 3px;
+            padding: 3px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #boxright{
+            background-color: cornsilk;
+            border: 1px solid darkred;
+            margin: 3px;
+            padding: 3px;
+        }
+
+        p{
+            border: 1px solid green;
+        }
+
+        img{
+            height: 100px;
+            width: 100px;
+        }
+
+        @media (max-width:640px) {
+            .container{
+                flex-direction: column;
+            }
+        }
+
+        @media (min-width:640px) {
+            .container{
+                flex-direction: row;
+            }
+        }
+
+        
+        @media (max-width:640px) {
+            #boxleft{
+                text-align: center;
+            }
+        }
+
+    </style>
+<body>
+    <div class="container">
+        <div id="boxleft">
+            <p>Bappa</p>
+            <p>Ganesha</p>
+        </div>
+        <div id="boxright">
+            <img src="../Images/ganesha1.png" alt="Deva Ganesha">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+h1{
+    color: black;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+.math{
+    color: rgb(249, 2, 2);
+    font-weight: bold;
+}
+
+#cut{
+    background-color: burlywood;
+    color: greenyellow;
+}
+
+#cut:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+/* Background Color to the Whole Page */
+/* body{
+    background-color: lightpink;
+} */
+
+
+/* Background Color for Particular Elements */
+
+/* h1{
+    background-color: lightcoral;
+}
+
+p{
+    background-color: lightyellow;
+} */
+
+
+/* With using Opacity we can see the opacity for child element also change. */
+/* div{
+    background-color: green;
+    opacity: 0.3;
+} */
+
+/* To solve this issue we use rgba values to make only background transparent 
+without affecting to child elements */
+
+/* div{
+    background: rgba(0,128,0,0.3);
+} */
+
+/* 2. Background Image Concept and Bacground repeat concept */
+
+body{
+    background-image:url("../Images/ganesha1.png");
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat; 
+    background-position: right top;
+    /* background-attachment: fixed; */
+    background-attachment: fixed;
+} 
+
+
+

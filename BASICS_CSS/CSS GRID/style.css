@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.item1{
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.item2{
+    background-color: chocolate;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.item3{
+    background-color: rgb(161, 170, 187);
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.item4{
+    background-color: rgb(3, 234, 255);
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.item5{
+    background-color: rgb(238, 48, 136);
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.item6{
+    background-color: rgb(134, 208, 162);
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.container{
+    background-color: rgb(74, 74, 65);
+    height: 100%;
+    width: 100%;
+    /* 1 rem = roots font size (16px) is default */
+    padding: 4rem;
+    row-gap: 16px;   
+    column-gap: 16px;
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+    /* grid-template-rows: 200px 200px 200px; */
+
+    /* grid-template-columns: repeat(2,200px); */
+    /* grid-template-rows: repeat(3,200px); */
+
+    /* grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(4,1fr); */
+
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows:repeat(6,1fr);
+}
+
+/* .header, .footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.content1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.content3, .content4{
+    grid-row-start: 3;
+    grid-row-end: 4;
+} */
+
+@media (min-width:768px) {
+    .container{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows:repeat(4,1fr);
+    }
+
+    .header, .footer {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    .sidebar{
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    
+    .content1{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    
+    .content3, .content4{
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h1>Enter Your Details</h1>
+    <form>
+        <div>
+            <label for="">First Name:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Second Name:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Mobile Number:</label>
+            <input type="number" size="20">
+        </div>
+        <div>
+            <label for="">Gender:</label>
+            <input type="radio" name="Gender" value="Male"> Male
+            <input type="radio" name="Gender" value="Female"> Female
+        </div>
+        <div>
+            <label for="">Hobbies:</label>
+            <input type="checkbox" name="Interest" value="Music"> Music
+            <input type="checkbox" name="Interest" value="Coding"> Coding
+        </div>
+        <div>
+            <label for="">Your Country:</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Russia">Russia</option>
+            </select>
+        </div>
+        <div>
+            <label for="">My Contry:</label>
+            <input type="text" id="country" name="country" list="countries">
+            <datalist id="countries">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="">Message Us: </label>
+            <textarea
+            name="Comments"
+            rows="5"
+            cols="100"
+            placeholder="Your comments Here"
+            ></textarea>
+        </div>
+        <div>
+            <label for="">Upload File:</label>
+            <input type="file" name="FileUpload">
+        </div>
+        <!--<input type="Submit"> We Can Write In This Way Also-->
+        <button type="submit">Submit</button>
+        <input type="reset" name="Reset">
+    </form>
+</body>
+</html>

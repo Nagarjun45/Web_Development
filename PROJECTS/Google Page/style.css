@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: end;
+    padding: 6px;
+}
+
+.nav-names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-mail{
+    height: 24px;
+    padding: 0px 0px 0px 15px;
+    color: #000000DE;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
+.nav-images{
+    height: 24px;
+    padding: 0px 0px 0px 15px;
+    color: #000000DE;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
+.nav-signin{
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4px 0px 32px;
+}
+
+
+.nav-signin a{
+    height: 36px;
+    background-color: #1a73e8;
+    margin: 0px 8px;
+    padding: 9px 23px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Google Image Part */
+
+.google{
+    height: 92px;
+    display: flex;
+    justify-content: center;
+}

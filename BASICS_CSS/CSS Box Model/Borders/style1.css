@@ -1,0 +1,21 @@
+.s1{
+    border-style: dotted solid double dashed;
+    border-color: red green blue yellow;
+    border-radius: 5px;
+}
+
+.s2{
+    border-style: dotted solid double;
+    border-color: aqua blue brown blueviolet;
+}
+
+.s3{
+    border-style: dotted solid;
+    border-color: red green blue yellow;
+}
+
+.s4{
+    border-style: solid;
+    border-color: aqua blue brown blueviolet;
+    border-radius: 10px;
+}
